@@ -1,0 +1,19 @@
+{
+  "name": "yt-agent-platform",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run -ws build",
+    "dev": "npm run -ws dev",
+    "lint": "npm run -ws lint",
+    "api:dev": "npm run dev -w @yt-agent/api",
+    "worker:dev": "npm run dev -w @yt-agent/worker",
+    "web:dev": "npm run dev -w @yt-agent/web",
+    "db:generate": "npm run db:generate -w @yt-agent/api",
+    "db:migrate": "npm run db:migrate -w @yt-agent/api"
+  }
+}

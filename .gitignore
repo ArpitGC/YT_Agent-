@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Local secrets and auth
+.env
+token.json
+credentials.json
+
+# Node/TypeScript
+node_modules/
+dist/
+.next/
+*.tsbuildinfo
+
+# Logs
+logs/
+
+# Generated assets
+artifacts/
