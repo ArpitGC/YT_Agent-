@@ -7,6 +7,7 @@ from .config import Settings
 from .pipeline import YouTubeOptimizationPipeline
 
 //added
+/*added */
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="YouTube optimization agent")
